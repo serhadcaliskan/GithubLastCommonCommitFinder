@@ -12,5 +12,4 @@ public interface LastCommonCommitsFinderFactory {
      * @return an instance of LastCommonCommitsFinder
      */
     LastCommonCommitsFinder create(String owner, String repo, String token);
-
 }
